@@ -1,12 +1,48 @@
-# React + Vite
+# 🧠 Algorithm Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Algorithm Visualizer** is a web application that helps users **understand and visualize various algorithms** such as sorting, pathfinding, prime number generation, recursion trees, and binary search. It’s an educational tool designed for students, developers, and educators to learn algorithms through interactive visuals.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- ✨ Clean and intuitive UI for better learning experience
+- 🔍 Visualize **Pathfinding Algorithms** (e.g., BFS, DFS, A*)
+- 📊 Sorting Visualizer (e.g., Merge Sort, Heap Sort, Quick Sort)
+- 🌳 Recursion Tree Viewer
+- 🔢 Prime Number Generator Visualization
+- 📈 Binary Search Simulation
+- 🎚️ Adjustable speed and input sliders
+- 💡 Select algorithms dynamically via dropdowns
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React.js
+- 🖌️ Material-UI (MUI)
+- 💅 CSS (with optional Tailwind support)
+- 📦 Node.js (for development server)
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the Repository  
+   ```bash
+   git clone https://github.com/yushmitabisu018/Algorithm-Visualizer.git
+   cd AlgorithmVisualizer
+   ```
+2. Install the necessary dependancies
+   ```bash
+   npm install
+   ```
+3. Run the Frontend
+   ```bash
+   npm run dev
+   ```
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+   
+   
