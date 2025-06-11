@@ -1,0 +1,17 @@
+
+.Grid {
+    font-size: 0; /* Removes whitespace gaps between inline-block children */
+    display: flex;
+    flex-direction: column;
+}
+
+.Grid > div {
+    display: flex;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}

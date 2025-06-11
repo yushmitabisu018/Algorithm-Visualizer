@@ -1,0 +1,98 @@
+:root {
+    --start-color: chartreuse;
+    --end-color: brown;
+    --visited-color: rgba(0, 190, 218, 0.75);
+    --visited-color-dark: rgba(0, 0, 66, 0.75);
+    --wall-color: black;
+    --wall-bg: rgb(12, 53, 71);
+    --path-color: rgb(255, 254, 106);
+    --node-outline: rgb(175, 216, 248);
+  }
+  
+  .node {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    outline: 1px solid var(--node-outline);
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .node-start {
+    background-color: var(--start-color);
+  }
+  
+  .node-end {
+    background-color: var(--end-color);
+  }
+  
+  .node-visited {
+    animation: visitedAnimation 1.5s ease-in-out forwards;
+    background-color: var(--visited-color);
+  }
+  
+  @keyframes visitedAnimation {
+    0% {
+      transform: scale(0.3);
+      background-color: var(--visited-color-dark);
+      border-radius: 100%;
+    }
+    50% {
+      background-color: rgba(17, 104, 217, 0.75);
+    }
+    75% {
+      transform: scale(1.2);
+      background-color: rgba(0, 217, 159, 0.75);
+    }
+    100% {
+      transform: scale(1);
+      background-color: var(--visited-color);
+    }
+  }
+  
+  .node-wall {
+    background-color: var(--wall-color);
+    outline: 1px solid var(--wall-color);
+    animation: wallAnimation 0.3s ease-out forwards;
+  }
+  
+  @keyframes wallAnimation {
+    0% {
+      transform: scale(0.3);
+      background-color: var(--wall-bg);
+    }
+    50% {
+      transform: scale(1.2);
+      background-color: var(--wall-bg);
+    }
+    100% {
+      transform: scale(1);
+      background-color: var(--wall-bg);
+    }
+  }
+  
+  .node-shortest-path {
+    animation: shortestPath 1.5s ease-out forwards;
+    background-color: var(--path-color);
+  }
+  
+  @keyframes shortestPath {
+    0% {
+      transform: scale(0.6);
+      background-color: var(--path-color);
+    }
+    50% {
+      transform: scale(1.2);
+      background-color: var(--path-color);
+    }
+    100% {
+      transform: scale(1);
+      background-color: var(--path-color);
+    }
+  }
+  
+  .node:focus {
+    outline: 2px solid #2196f3;
+    outline-offset: 2px;
+  }
+  
