@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Cells from "./cells";
 import Navbar from "./navbar";
 import Menu from "./menu";
-import { seive } from "../algorithms/prime";
+import { seive } from "../Algorithms/prime";
 
 class Seive extends Component {
   state = {
