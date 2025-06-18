@@ -2,10 +2,10 @@ import React, {Component, Fragment} from 'react';
 import Grid from "./grid";
 import Navbar from "./navbar";
 import Menu from "./menu";
-import {dijkstra,getNodesInShortestPathOrder} from "../algorithms/dijkstra";
-import {getMaze} from "../algorithms/recursiveMaze";
-import {bfsdfs} from "../algorithms/bfs";
-import {randomMaze} from "../algorithms/randomMaze";
+import {dijkstra,getNodesInShortestPathOrder} from "../Algorithms/dijkstra";
+import {getMaze} from "../Algorithms/recursiveMaze";
+import {bfsdfs} from "../Algorithms/bfs";
+import {randomMaze} from "../Algorithms/randomMaze";
 
 class Pathfinder extends Component {
     constructor() {
