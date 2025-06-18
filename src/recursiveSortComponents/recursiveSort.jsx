@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import Rect from "./rect";
 import Rects from "./rects";
-import mergeSort from '../algorithms/mergeSort';
-import heapSort from "../algorithms/heapSort";
-import {quickSortRecursive} from "../algorithms/quickSortRecursive";
+import mergeSort from '../Algorithms/mergeSort';
+import heapSort from "../Algorithms/heapSort";
+import {quickSortRecursive} from "../Algorithms/quickSortRecursive";
 import Navbar from "./navbar";
 import Menu from "./menu";
 
