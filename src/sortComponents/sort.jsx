@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import Rects from "./rects";
-import {bubbleSort,selectionSort,insertionSort} from "../algorithms/sortingAlgorithms";
+import {bubbleSort,selectionSort,insertionSort} from "../Algorithms/sortingAlgorithms";
 import Navbar from "./navbar";
 import Menu from "./menu";
 
