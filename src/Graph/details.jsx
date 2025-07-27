@@ -36,7 +36,7 @@ class Details extends Component {
                             N = Nth Fibonacci Number
                         </div>
                         <div style={cardStyle}>
-                            function = nCr(n,r)
+                            function = fib(n)
                         </div>
                         <div style={cardStyle}>
                             Fib(0) = 0 <br />
